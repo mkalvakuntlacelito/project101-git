@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "project101-dev-km-adf"
+		},
+		"LS_Project101_Dev_properties_typeProperties_url": {
+			"value": "https://project101devkmsa.dfs.core.windows.net"
+		},
+		"LS_Project101_dev_KeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://project101devmkkv1.vault.azure.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
