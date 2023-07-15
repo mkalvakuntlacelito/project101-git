@@ -1,0 +1,20 @@
+{
+	"name": "LS_Project101_Dev",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://project101devkmsa.dfs.core.windows.net",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_Project101_dev_KeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "project101-dev-kv",
+				"secretVersion": "15f81327b8bf4b219a55107bcd5b72fd"
+			}
+		}
+	}
+}
